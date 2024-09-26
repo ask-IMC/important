@@ -8,13 +8,13 @@
     <link href="https://fonts.cdnfonts.com/css/general-sans?styles=135312,135310,135313,135303" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
-    <link rel="icon" type="image/svg+xml" href="https://static.shuffle.dev/uploads/files/8f/8f6ec68f18fa56ec90a58296a368ead1f480a155/logo-icon-color.svg">
+    <link rel="icon" type="image/svg+xml" href="images/logo-icon-color.svg">
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer></script>
 </head>
 <body class="antialiased bg-body text-body font-body">
     <div class="">
                 
-      <section x-data="{ mobileNavOpen: false }" class="overflow-hidden">  <div class="flex items-center justify-between fixed px-7 py-5 bg-white top-0 left-0 w-full bg-white shadow-md z-50 transition-shadow">    <div class="w-auto">      <div class="flex flex-wrap items-center">        <div class="w-auto mr-14">          <a href="#">            <img src="images/logo-color.svg" alt="" class="h-12 sm:hidden hidden sm:block">            <img src="images/logo-icon-color.svg" alt="" class="block h-8">          </a>        </div>      </div>    </div>    <div class="w-auto">      <div class="flex flex-wrap items-center removed"></div>    </div>    <div class="w-auto">      <div class="flex flex-wrap items-center">        <div class="w-auto lg:block">          <div class="inline-block">            <button class="py-3 px-5 w-full text-white font-semibold rounded-xl focus:ring focus:ring-indigo-300 bg-indigo-600 hover:bg-indigo-700 transition ease-in-out duration-200" type="button">Talk to us</button>          </div>        </div>        <div class="w-auto lg:hidden">          <button x-on:click="mobileNavOpen = !mobileNavOpen">            <svg class="text-indigo-600 hidden" width="51" height="51" viewbox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">              <rect width="56" height="56" rx="28" fill="currentColor"></rect>              <path d="M37 32H19M37 24H19" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>            </svg>          </button>        </div>      </div>    </div>  </div>  <div :class="{'block': mobileNavOpen, 'hidden': !mobileNavOpen}" class="fixed top-0 left-0 bottom-0 w-4/6 sm:max-w-xs z-50 hidden">    <div x-on:click="mobileNavOpen = !mobileNavOpen" class="fixed inset-0 bg-gray-800 opacity-80"></div>    <nav class="relative z-10 px-9 pt-8 bg-white h-full overflow-y-auto">      <div class="flex flex-wrap justify-between h-full">        <div class="w-full">          <div class="flex items-center justify-between -m-2">            <div class="w-auto p-2">              <a class="inline-block" href="#">                <img src="images/logo-color.svg" alt="" class="h-12">              </a>            </div>            <div class="w-auto p-2">              <button x-on:click="mobileNavOpen = !mobileNavOpen">                <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                  <path d="M6 18L18 6M6 6L18 18" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>                </svg>              </button>            </div>          </div>        </div>        <div class="flex flex-col justify-center py-16 w-full">          <ul>            <li class="mb-12"><a class="font-medium hover:text-gray-700" href="#">About</a></li>            <li class="mb-12"><a class="font-medium hover:text-gray-700" href="#">Solutions</a></li>            <li class="mb-12"><a class="font-medium hover:text-gray-700" href="#">Team</a></li>            <li><a class="font-medium hover:text-gray-700" href="#">Jobs</a></li>          </ul>        </div>        <div class="flex flex-col justify-end w-full pb-8">          <div class="flex flex-wrap">            <div class="w-full">              <div class="block">                <button class="py-3 px-5 w-full text-white font-semibold rounded-xl focus:ring focus:ring-indigo-300 bg-indigo-600 hover:bg-indigo-700 transition ease-in-out duration-200" type="button">Schedule a call</button>              </div>            </div>          </div>        </div>      </div>    </nav>  </div></section>
+      <section x-data="{ mobileNavOpen: false }" class="overflow-hidden">  <div class="flex items-center justify-between fixed px-7 py-5 bg-white top-0 left-0 w-full bg-white shadow-md z-50 transition-shadow">    <div class="w-auto">      <div class="flex flex-wrap items-center">        <div class="w-auto mr-14">          <a href="#">            <img src="images/logo-color.svg" alt="" class="h-12 sm:hidden hidden sm:block">            <img src="images/logo-icon-color.svg" alt="" class="block h-8">          </a>        </div>      </div>    </div>    <div class="w-auto">      <div class="flex flex-wrap items-center removed"></div>    </div>    <div class="w-auto">      <div class="flex flex-wrap items-center">        <div class="w-auto lg:block">          <div class="inline-block">            <a href="tel:+61499975877" target="_blank" class="md:hidden py-4 px-6 text-white font-semibold rounded-xl focus:ring focus:ring-indigo-300 bg-indigo-600 hover:bg-indigo-700 transition ease-in-out duration-200">Talk to us</a><a href="mailto:ask.imconsulting@outlook.com" target="_blank" class="hidden md:inline-block py-4 px-6 text-white font-semibold rounded-xl focus:ring focus:ring-indigo-300 bg-indigo-600 hover:bg-indigo-700 transition ease-in-out duration-200">Talk to us</a>          </div>        </div>        <div class="w-auto lg:hidden">          <button x-on:click="mobileNavOpen = !mobileNavOpen">            <svg class="text-indigo-600 hidden" width="51" height="51" viewbox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">              <rect width="56" height="56" rx="28" fill="currentColor"></rect>              <path d="M37 32H19M37 24H19" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>            </svg>          </button>        </div>      </div>    </div>  </div>  <div :class="{'block': mobileNavOpen, 'hidden': !mobileNavOpen}" class="fixed top-0 left-0 bottom-0 w-4/6 sm:max-w-xs z-50 hidden">    <div x-on:click="mobileNavOpen = !mobileNavOpen" class="fixed inset-0 bg-gray-800 opacity-80"></div>    <nav class="relative z-10 px-9 pt-8 bg-white h-full overflow-y-auto">      <div class="flex flex-wrap justify-between h-full">        <div class="w-full">          <div class="flex items-center justify-between -m-2">            <div class="w-auto p-2">              <a class="inline-block" href="#">                <img src="images/logo-color.svg" alt="" class="h-12">              </a>            </div>            <div class="w-auto p-2">              <button x-on:click="mobileNavOpen = !mobileNavOpen">                <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                  <path d="M6 18L18 6M6 6L18 18" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>                </svg>              </button>            </div>          </div>        </div>        <div class="flex flex-col justify-center py-16 w-full">          <ul>            <li class="mb-12"><a class="font-medium hover:text-gray-700" href="#">About</a></li>            <li class="mb-12"><a class="font-medium hover:text-gray-700" href="#">Solutions</a></li>            <li class="mb-12"><a class="font-medium hover:text-gray-700" href="#">Team</a></li>            <li><a class="font-medium hover:text-gray-700" href="#">Jobs</a></li>          </ul>        </div>        <div class="flex flex-col justify-end w-full pb-8">          <div class="flex flex-wrap">            <div class="w-full">              <div class="block">                <button class="py-3 px-5 w-full text-white font-semibold rounded-xl focus:ring focus:ring-indigo-300 bg-indigo-600 hover:bg-indigo-700 transition ease-in-out duration-200" type="button">Schedule a call</button>              </div>            </div>          </div>        </div>      </div>    </nav>  </div></section>
                 
       <div class="container mx-auto">
       <div class="flex flex-wrap -mx-4 -mb-4 md:mb-0">  <div class="flex flex-wrap mt-40 mb-10">    <div class="md:w-1/2 px-4 md:mb-0 flex items-center justify-center w-full mb-8">      <img src="images/logo-color.svg" alt="" class="w-[200px] lg:w-auto">      <h1 class="mb-6 lg:text-10xl font-bold font-heading leading-none text-5xl">@ work</h1>    </div>    <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0">      <h3 class="mb-6 text-5xl font-bold font-heading tracking-px-n leading-tight pl-4 pr-4">We support early stage startups and leading tech giants</h3>      <p class="mb-4 text-base font-medium pl-4 pr-4">At Ingenious Minds, we empower both emerging startups and established tech leaders with innovative solutions, expert guidance, and unwavering support to drive success and growth.</p>    </div>  </div>  <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div></div>
@@ -79,8 +79,8 @@
           <div class="flex flex-wrap -m-8">
             <div class="w-full md:w-1/2 xl:w-1/3 p-8">
               <div class="md:max-w-sm">
-                <h2 class="mb-4 text-6xl md:text-7xl font-bold font-heading tracking-px-n leading-tight">Create Successful Business Models with Our IT Solutions</h2>
-                <p class="text-gray-900 font-medium leading-relaxed">At IM we help to digitize businesses by focusing on client’s business challenges, needs. We value close transparent cooperation and encourage our clients to participate actively in the project development life cycle.</p>
+                <h2 class="mb-4 text-6xl md:text-7xl font-bold font-heading tracking-px-n leading-tight">Build website fast with Flaro.</h2>
+                <p class="text-gray-900 font-medium leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
               </div>
             </div>
             <div class="w-full md:w-1/2 xl:w-2/3 p-8">
@@ -90,16 +90,15 @@
                     <div class="px-9 py-8 h-full bg-blueGray-900 rounded-4xl shadow-7xl">
                       <div class="flex flex-col justify-between h-full">
                         <div>
-                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" class="mb-9 text-white w-14">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
-      </svg>
-      
-                          <h3 class="mb-5 text-3xl text-white font-bold leading-snug">Reliable team</h3>
-                          <p class="mb-24 text-blueGray-300 font-medium">Trust in our reliable team of experts dedicated to delivering exceptional results and unparalleled support.</p>
+                          <svg class="mb-9" width="51" height="51" viewbox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M23.6186 46.4724L36.6794 13.8038L4.01089 26.8647L11.6252 34.5008L30.1436 20.3397L15.9825 38.8581L23.6186 46.4724Z" fill="#E2E8F0"></path>
+                          </svg>
+                          <h3 class="mb-5 text-3xl text-white font-bold leading-snug">Free, Forever</h3>
+                          <p class="mb-24 text-blueGray-300 font-medium">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit.</p>
                         </div>
                         <a class="inline-flex items-center max-w-max text-white hover:text-gray-200" href="#">
-                          
-                          <svg width="19" height="18" viewbox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="hidden">
+                          <span class="mr-2 font-sans font-medium">Join free for 30 days</span>
+                          <svg width="19" height="18" viewbox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M11 3.75L16.25 9M16.25 9L11 14.25M16.25 9L2.75 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                           </svg>
                         </a>
@@ -112,16 +111,15 @@
                     <div class="px-9 py-8 h-full bg-blueGray-900 rounded-4xl shadow-7xl">
                       <div class="flex flex-col justify-between h-full">
                         <div>
-                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" class="mb-14 w-12 text-white">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
-      </svg>
-      
-                          <h3 class="mb-5 text-3xl text-white font-bold leading-snug">Research &amp; Dev</h3>
+                          <svg class="mb-14" width="33" height="33" viewbox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M29.7 0H3.3C1.47675 0 0.0165 1.47675 0.0165 3.3L0 33L6.6 26.4H29.7C31.5232 26.4 33 24.9233 33 23.1V3.3C33 1.47675 31.5232 0 29.7 0ZM11.55 14.85H8.25V11.55H11.55V14.85ZM18.15 14.85H14.85V11.55H18.15V14.85ZM24.75 14.85H21.45V11.55H24.75V14.85Z" fill="#E2E8F0"></path>
+                          </svg>
+                          <h3 class="mb-5 text-3xl text-white font-bold leading-snug">Chat with agent</h3>
                           <p class="mb-24 text-blueGray-300 font-medium">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit.</p>
                         </div>
                         <a class="inline-flex items-center max-w-max text-white hover:text-gray-200" href="#">
-                          <span class="mr-2 font-sans font-medium hidden">Start live chat</span>
-                          <svg width="19" height="18" viewbox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="hidden">
+                          <span class="mr-2 font-sans font-medium">Start live chat</span>
+                          <svg width="19" height="18" viewbox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M11 3.75L16.25 9M16.25 9L11 14.25M16.25 9L2.75 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                           </svg>
                         </a>
@@ -387,42 +385,7 @@
         </div>
       </section>
                 
-      <section class="relative pt-28 pb-32 bg-indigo-600 overflow-hidden">
-        <img class="absolute left-1/2 top-0 transform" src="flaro-assets/images/footers/gradient3.svg" alt="">
-        <div class="relative z-10 container px-4 mx-auto">
-          <div class="flex flex-wrap -m-8">
-            <div class="w-full md:w-1/2 p-8">
-              <div class="lg:max-w-sm">
-                <h2 class="mb-16 text-6xl md:text-7xl text-white font-bold tracking-px-n leading-tight">Start with trustworthy talent today</h2>
-                <div class="md:inline-block">
-                  <button class="py-4 px-6 w-full text-indigo-600 font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-white hover:bg-gray-50 transition ease-in-out duration-200" type="button">Schedule a Call</button>
-                </div>
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 p-8">
-              <div class="flex flex-wrap mb-10">
-                <div class="w-full sm:w-1/3 p-8">
-                  <ul>
-                    <li class="mb-3.5"><a class="text-white hover:text-gray-200 font-medium leading-relaxed" href="#">About</a></li>
-                    <li class="mb-3.5"><a class="text-white hover:text-gray-200 font-medium leading-relaxed" href="#">Services</a></li>
-                    <li class="mb-3.5"><a class="text-white hover:text-gray-200 font-medium leading-relaxed" href="#">Testimonials</a></li>
-                    <li><a class="text-white hover:text-gray-200 font-medium leading-relaxed" href="#">Services</a></li>
-                  </ul>
-                </div>
-                
-                <div class="w-full sm:w-1/3 p-8">
-                  <ul>
-                    <li class="mb-3.5"><a class="text-white hover:text-gray-200 font-medium leading-relaxed" href="#">Melbourne, Australia</a></li>
-                    <li class="mb-3.5">
-                    
-                  </li></ul>
-                </div>
-              </div>
-              <p class="text-sm text-white text-opacity-50 font-medium leading-relaxed text-center">Copyright © 2024 IM. All Rights Reserved</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <section data-from-ai="true" class="relative pt-28 pb-32 bg-indigo-600 overflow-hidden">  <img class="absolute left-1/2 top-0 transform" src="flaro-assets/images/footers/gradient3.svg" alt="">  <div class="relative z-10 container px-4 mx-auto">    <div class="flex flex-wrap -m-8">      <div class="w-full md:w-1/2 p-8">        <div class="lg:max-w-sm">          <h2 class="mb-16 text-6xl md:text-7xl text-white font-bold tracking-px-n leading-tight">Start with trustworthy partner today</h2>          <a href="tel:+61499975877" target="_blank" class="md:hidden py-4 px-6 text-indigo-600 font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-white hover:bg-gray-50 transition ease-in-out duration-200 bg-white">Contact team</a><a href="mailto:ask.imconsulting@outlook.com" target="_blank" class="hidden md:inline-block py-4 px-6 text-indigo-600 font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-white hover:bg-gray-50 transition ease-in-out duration-200 bg-white">Contact team</a>        </div>      </div>      <div class="w-full md:w-1/2 p-8">        <div class="flex flex-wrap mb-10">          <div class="w-full sm:w-1/3 p-8">            <ul>              <li class="mb-3.5"><a class="text-white hover:text-gray-200 font-medium leading-relaxed" href="#">About</a></li>              <li class="mb-3.5"><a class="text-white hover:text-gray-200 font-medium leading-relaxed" href="#">Services</a></li>              <li class="mb-3.5"><a class="text-white hover:text-gray-200 font-medium leading-relaxed" href="#">Testimonials</a></li>            </ul>          </div>          <div class="w-full sm:w-1/3 p-8">            <ul>              <li class="mb-3.5">                <h6 class="mb-2 text-white font-bold tracking-px-n leading-tight">Location</h6>              </li>              <li class="mb-3.5"><a class="text-white hover:text-gray-200 font-medium leading-relaxed" href="#">Melbourne, Australia</a></li>              <li class="mb-3.5">            </li></ul>          </div>        </div>        <p class="text-sm text-white text-opacity-50 font-medium leading-relaxed text-center">Copyright © 2024 IM. All Rights Reserved</p>      </div>    </div>  </div></section>
     </div>
 </body>
 </html>

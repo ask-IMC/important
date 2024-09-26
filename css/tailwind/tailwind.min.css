@@ -489,6 +489,8 @@ video {
   margin-bottom: 3.5rem;
 } .mb-16{
   margin-bottom: 4rem;
+} .mb-2{
+  margin-bottom: 0.5rem;
 } .mb-20{
   margin-bottom: 5rem;
 } .mb-24{
@@ -537,10 +539,6 @@ video {
   height: 100%;
 } .min-h-\[400px\]{
   min-height: 400px;
-} .w-12{
-  width: 3rem;
-} .w-14{
-  width: 3.5rem;
 } .w-4\/6{
   width: 66.666667%;
 } .w-\[200px\]{
@@ -880,6 +878,8 @@ video {
     display: block;
   } .md\:inline-block{
     display: inline-block;
+  } .md\:hidden{
+    display: none;
   } .md\:w-1\/2{
     width: 50%;
   } .md\:w-1\/3{
